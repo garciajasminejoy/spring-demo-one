@@ -6,5 +6,10 @@ public class BadmintonCoach implements Coach {
 	public String getDailyWorkout() {
 		return "Run forrest run!";
 	}
+
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
 	
 }
