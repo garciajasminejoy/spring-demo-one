@@ -32,7 +32,9 @@
     	<property name="team" value="${foo.team}"/>
     </bean>
     
-    <bean id="pingpongCoach" class="com.luv2code.springdemo.PingpongCoach">
+    <bean id="pingpongCoach" 
+    	  class="com.luv2code.springdemo.PingpongCoach"
+    	  scope="prototype">
     	<constructor-arg ref="randomFortuneService"/>
     </bean>
 </beans>
